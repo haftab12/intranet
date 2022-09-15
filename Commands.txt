@@ -1,0 +1,7 @@
+intranet-db-deployment-7454bcc489-mrss
+
+
+kubectl --kubeconfig /home/haftab/.config/Lens/kubeconfigs/076ecbf7-8b52-49c7-88fb-6389364286b2 cp intranet-deployment-86bd9465b6-lq69m:/var/www/html/hr-documents.php /home/haftab/Desktop/hr-documents.php
+
+
+kubectl --kubeconfig /home/haftab/.config/Lens/kubeconfigs/076ecbf7-8b52-49c7-88fb-6389364286b2 cp intranet-db-deployment-7454bcc489-mrssr:/my.sql /home/haftab/Desktop/my.sql
